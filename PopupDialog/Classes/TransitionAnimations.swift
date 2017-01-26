@@ -45,7 +45,7 @@ import UIKit
 final internal class BounceUpTransition: TransitionAnimator {
 
     init(direction: AnimationDirection) {
-        super.init(inDuration: 0.22, outDuration: 0.2, direction: direction)
+        super.init(inDuration: 0.35, outDuration: 0.3, direction: direction)
     }
 
     override func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
@@ -75,7 +75,7 @@ final internal class BounceUpTransition: TransitionAnimator {
 final internal class BounceDownTransition: TransitionAnimator {
 
     init(direction: AnimationDirection) {
-        super.init(inDuration: 0.22, outDuration: 0.2, direction: direction)
+        super.init(inDuration: 0.35, outDuration: 0.3, direction: direction)
     }
 
     override func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
@@ -104,7 +104,7 @@ final internal class BounceDownTransition: TransitionAnimator {
 final internal class ZoomTransition: TransitionAnimator {
 
     init(direction: AnimationDirection) {
-        super.init(inDuration: 0.22, outDuration: 0.2, direction: direction)
+        super.init(inDuration: 0.35, outDuration: 0.3, direction: direction)
     }
 
     override func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
@@ -133,7 +133,7 @@ final internal class ZoomTransition: TransitionAnimator {
 final internal class FadeTransition: TransitionAnimator {
 
     init(direction: AnimationDirection) {
-        super.init(inDuration: 0.22, outDuration: 0.2, direction: direction)
+        super.init(inDuration: 0.35, outDuration: 0.3, direction: direction)
     }
 
     override func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
@@ -162,7 +162,7 @@ final internal class FadeTransition: TransitionAnimator {
 final internal class DismissInteractiveTransition: TransitionAnimator {
 
     init() {
-        super.init(inDuration: 0.22, outDuration: 0.32, direction: .out)
+        super.init(inDuration: 0.35, outDuration: 0.45, direction: .out)
     }
 
     override func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
